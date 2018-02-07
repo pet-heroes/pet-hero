@@ -92,5 +92,5 @@ For now we will keep this basic. HTML and CSS on the frontend with a NodeJS serv
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | [<img src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-1/p160x160/11006462_1119691051391147_8234870619860166121_n.jpg?oh=bbd7c952e3d72b79fe588eb010113de3&oe=5AE0AA18" height="48" style="border-radius: 100%;"><br><sub><b>Christopher Gates</b></sub>](https://github.com/tophergates) | [<img src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/16602756_10206479091895926_6441704552829543071_n.jpg?oh=23de49a9de17e510ace4fe89723d3538&oe=5B124E11" height="48" style="border-radius: 100%;"><br /><sub><b>Ryan C. Martin</b></sub>](https://github.com/ryancmartin) |
 
-[code-of-conduct]: https://github.com/pet-heroes/pet-hero/CODE_OF_CONDUCT.md
-[contributing]: https://github.com/pet-heroes/pet-hero/CONTRIBUTING.md
+[code-of-conduct]: https://github.com/pet-heroes/pet-hero/blob/master/CODE_OF_CONDUCT.md
+[contributing]: https://github.com/pet-heroes/pet-hero/blob/master/CONTRIBUTING.md
