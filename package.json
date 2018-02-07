@@ -1,0 +1,49 @@
+{
+  "name": "pet-hero",
+  "version": "0.0.1",
+  "description": "Pet Hero is an open-source application enabling people to find pets to adopt.",
+  "keywords": [
+    "animal",
+    "animals",
+    "pet",
+    "pets",
+    "adopt",
+    "adoption",
+    "animal shelter",
+    "animal shelters"
+  ],
+  "author": "Christopher Gates <topher.gates@gmail.com> (https://github.com/tophergates",
+  "contributors": [
+    "Christopher Gates <topher.gates@gmail.com> (https://github.com/tophergates)",
+    "Ryan C. Martin (https://github.com/ryancmartin)"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.9.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pet-heroes/pet-hero.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pet-heroes/pet-hero/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "nodemon": "^1.14.12"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "helmet": "^3.10.0",
+    "morgan": "^1.9.0"
+  }
+}
