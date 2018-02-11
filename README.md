@@ -1,6 +1,6 @@
 # 🐶 &nbsp;PET HERO
 
-[![LICENSE MIT](https://img.shields.io/badge/LICENSE-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![LICENSE MIT](https://img.shields.io/badge/LICENSE-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://travis-ci.org/pet-heroes/pet-hero.svg?branch=development)](https://travis-ci.org/pet-heroes/pet-hero)
 
 **Pet Hero** is an open-source project aimed to bring pet lovers together with animals who need loving homes.
 
