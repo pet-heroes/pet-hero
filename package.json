@@ -24,6 +24,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
+    "eslint": "eslint index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -36,9 +37,14 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^4.17.0",
-    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.8.0",
-    "nodemon": "^1.14.12"
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.6.1",
+    "nodemon": "^1.14.12",
+    "prettier": "^1.10.2"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
