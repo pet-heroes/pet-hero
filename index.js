@@ -1,9 +1,11 @@
+// Global modules/packages
 const http = require('http');
 
+// Local modules
 const app = require('./app');
+const { HOST, PORT } = require('./config');
 
-const PORT = process.env.PORT || 8080;
-
-http.createServer(app).listen(PORT, () => {
-  console.log(`Pet Hero is running on http://localhost:${PORT}`);
+// Initialize the NODE JS server and begin listening for traffic
+http.createServer(app).listen(PORT, HOST, () => {
+  console.log(`Pet Hero is running on http://${HOST}:${PORT}`);
 });

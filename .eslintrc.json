@@ -1,6 +1,7 @@
 {
   "env": {
     "browser": true,
+    "mocha": true,
     "node": true
   },
   "extends": [
@@ -20,6 +21,7 @@
     "no-console": 0
   },
   "plugins": [
+    "mocha",
     "prettier"
   ]
 }
