@@ -19,7 +19,10 @@ describe('Express Application', () => {
     request(app)
       .get('/api')
       .end((err, res) => {
-        assert(res.body.message === 'Welcome to the Pet Hero API! Goodness coming soon...');
+        assert(
+          res.body.message ===
+            'Welcome to the Pet Hero API! Goodness coming soon...'
+        );
         done();
       });
   });
