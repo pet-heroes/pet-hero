@@ -25,7 +25,10 @@ app.use(cors());
 
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Access, Authorization');
+  res.header(
+    'Access-Control-Allow-Headers',
+    'Origin, X-Requested-With, Content-Type, Access, Authorization'
+  );
 
   if (req.method === 'OPTIONS') {
     res.header('Access-Control-Allow-Methods', 'GET, PUT, POST, PATCH, DELETE');
@@ -43,7 +46,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // Use Express static to serve static files from the client/public directory
-app.use(express.static(resolve(__dirname, 'client', 'public'), { extensions: ['html', 'htm'] }));
+app.use(
+  express.static(resolve(__dirname, 'client', 'public'), {
+    extensions: ['html', 'htm'],
+  })
+);
 
 /**
  * Application Routes

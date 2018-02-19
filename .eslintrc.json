@@ -1,6 +1,7 @@
 {
   "env": {
     "browser": true,
+    "es6": true,
     "mocha": true,
     "node": true
   },
@@ -15,10 +16,11 @@
       {
         "trailingComma": "es5",
         "singleQuote": true,
-        "printWidth": 120
+        "printWidth": 80
       }
     ],
-    "no-console": 0
+    "no-console": 0,
+    "max-len": ["error", { "code": 80, "ignoreUrls": true }]
   },
   "plugins": [
     "mocha",
